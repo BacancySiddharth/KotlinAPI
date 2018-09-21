@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/drw_item_home"
+        android:alphabeticShortcut="@string/app_name"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/drw_item_category"
+        android:alphabeticShortcut="@string/app_name"
+        android:title="Bussiness" />
+
+    <item
+        android:id="@+id/drw_item_news"
+        android:alphabeticShortcut="@string/app_name"
+        android:title="News" />
+
+</menu>

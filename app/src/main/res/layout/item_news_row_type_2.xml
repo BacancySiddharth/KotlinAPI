@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp"
+    app:cardBackgroundColor="#FEFEFE"
+    app:cardElevation="8dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#DDFEFEFE"
+        android:padding="2dp">
+
+        <TextView
+            android:id="@+id/type2_titleTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-condensed"
+            android:maxLines="2"
+            android:padding="8dp"
+            android:text="title"
+            android:textColor="#0A0A0A"
+            android:textSize="18dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/type2_detailTxt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/type2_titleTxt"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-condensed"
+            android:maxLines="4"
+            android:padding="8dp"
+            android:text="title"
+            android:textColor="#040404"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/type2_pubdateTxt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/type2_detailTxt"
+            android:layout_marginLeft="8dp"
+            android:background="@drawable/bg_accent_square"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif"
+            android:maxLines="4"
+            android:padding="6dp"
+            android:text="title"
+            android:textColor="#090909"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
