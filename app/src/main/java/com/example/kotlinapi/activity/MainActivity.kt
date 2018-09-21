@@ -22,6 +22,7 @@ import com.example.kotlinapi.apiservices.NewsApiService
 import com.example.kotlinapi.fragment.NewsHomeFragment
 import com.example.kotlinapi.fragment.NewsRssFragment
 import com.example.kotlinapi.model.NewsApiRes
+import com.example.kotlinapi.utils.FbUtils
 import kotlinx.android.synthetic.main.activity_main.*
 import retrofit2.Call
 import retrofit2.Callback
@@ -45,6 +46,10 @@ class MainActivity : AppCompatActivity(), NavigationView.OnNavigationItemSelecte
                     .commit()
         }
 
+        toolbar.setOnClickListener {
+            FbUtils(MainActivity@ this).initBannerLoad(fbads)
+        }
+        FbUtils(this).initInterstitial()
 
         drawer_layout.setDrawerElevation(0f)
 //        drawer_layout.setScrimColor(Color.TRANSPARENT)

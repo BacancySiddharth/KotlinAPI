@@ -34,6 +34,12 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
             </android.support.v7.widget.Toolbar>
+
+            <LinearLayout
+                android:id="@+id/fbads"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" />
         </android.support.design.widget.AppBarLayout>
 
         <RelativeLayout
